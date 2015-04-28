@@ -9,10 +9,6 @@ ADD package.json /app/
 ADD client /app/client
 ADD server /app/server
 
-## alternate approach
-## Clone Master and Install dependencies
-#RUN git clone -b deploy-to-google-compute-engine https://github.com/pulkitsinghal/loopback-deploy-to-gcp.git
-
 RUN npm install
 RUN export NODE_ENV=development
 #ONBUILD ADD . /app
