@@ -1,6 +1,6 @@
 # This file holds common parameters for the VM start/stop scripts
 
-VM_NAME=deploy-loopback-to-gce-2
+VM_NAME=deploy-loopback-example-angular
 ZONE=us-central1-a
 MACHINE_TYPE=n1-standard-4
 PROJECT_ID=double-platform-92304
